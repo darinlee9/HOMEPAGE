@@ -42,26 +42,26 @@ const HomePage = () => {
         <div className="button-row">
           {/* Button for Interactive Map */}
           <button onClick={() => window.open('https://thadiel.github.io/LOFWebVersion/map', '_blank')} className="button">
-            <div>Interactive</div>
-            <div>Map</div>
+          <img src={require('./assets/search-location.png')} alt="Interactive Map" className="button-image" />
+            <div>Interactive Map</div>
           </button>
           {/* Button for Field Guide */}
           <button onClick={() => window.open('https://thadiel.github.io/', '_blank')} className="button">
-            <div>Field</div>
-            <div>Guide</div>
+          <img src={require('./assets/book.png')} alt="Interactive Map" className="button-image" />
+            <div>Field Guide</div>
           </button>
         </div>
         {/* Second row of buttons */}
         <div className="button-row">
           {/* Button for Wildlife Directory */}
           <button onClick={() => window.open('https://thadiel.github.io/', '_blank')} className="button">
-            <div>Wildlife</div>
-            <div>Directory</div>
+          <img src={require('./assets/fish-cooked.png')} alt="Interactive Map" className="button-image" />
+            <div>Wildlife Directory</div>
           </button>
           {/* Button for Support LOF */}
           <button onClick={() => window.open('https://givebutter.com/laguna-ocean-foundation', '_blank')} className="button">
-            <div>Support</div>
-            <div>LOF</div>
+          <img src={require('./assets/handshake.png')} alt="Interactive Map" className="button-image" />
+            <div>Support LOF</div>
           </button>
         </div>
       </div>
